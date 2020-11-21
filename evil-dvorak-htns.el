@@ -69,7 +69,7 @@
 (ad-activate 'load)
 
 ;; hjkl => htns
-(evil-define-key '(visual normal motion) evil-dvorak-htns-mode-map
+(evil-define-key '(visual normal motion) 'evil-dvorak-htns-mode
   "h" 'evil-backward-char
   "t" 'evil-next-visual-line
   "n" 'evil-previous-visual-line
